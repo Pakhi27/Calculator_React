@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+.Container{
+    display:grid;
+    grid-template-rows:repeat(4,1fr);
+    grid-gap:5px;
+}
+.r1,.r2,.r3,.r4,.r5{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);;
+    grid-gap:5px;
+}
+div{
+    text-align: center;
+    padding:10px;
+    color:white;
+}
+#box{
+    background-color:blue;
+}
+#result{
+    background-color: white;
+    width:  1065px;
+    margin-left:10px;
+    color:black;
+    font-size:40px;
+}
